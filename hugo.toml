@@ -1,0 +1,12 @@
+baseURL = "https://6668888.xyz/"
+languageCode = "zh-cn"
+title = " ҵĲ   "
+theme = "PaperMod"
+
+#  ؼ      author
+[author]
+  name = "helloyi"
+
+# PaperMod         
+[params]
+  author = "helloyi"
