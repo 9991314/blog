@@ -14,7 +14,8 @@ enableRobotsTXT = true
   disableThemeToggle = false
   description = "嵌入式开发与AI学习记录"
   keywords = ["嵌入式", "STM32", "AI", "单片机"]
-  mainSections = ["posts"]   # 🔥 推荐保留
+  comments = true
+  mainSections = ["posts"]
 
 [params.homeInfoParams]
 Title = "欢迎来到我的博客 👋"
@@ -30,10 +31,6 @@ apple_touch_icon = "blog.png"
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-
-# 🔥 这一段也必须保留
-[params.comments]
-enabled = true
 
 [params.giscus]
 repo = "9991314/blog"
