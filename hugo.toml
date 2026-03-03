@@ -3,33 +3,38 @@ languageCode = "zh-cn"
 title = "易先生"
 theme = "PaperMod"
 
-# author
+enableRobotsTXT = true
+
 [author]
   name = "helloyi"
 
-# PaperMod         
 [params]
   author = "helloyi"
   defaultTheme = "auto"
   disableThemeToggle = false
   description = "嵌入式开发与AI学习记录"
   keywords = ["嵌入式", "STM32", "AI", "单片机"]
+  comments = true            # 🔥 必须加这个
+  mainSections = ["posts"]   # 🔥 推荐保留
 
 [params.homeInfoParams]
 Title = "欢迎来到我的博客 👋"
 Content = "嵌入式 · AI · 技术成长 · 个人思考"
+
 [params.assets]
 favicon = "blog.png"
 favicon16x16 = "blog.png"
 favicon32x32 = "blog.png"
 apple_touch_icon = "blog.png"
 
-enableRobotsTXT = true
-
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
+
+# 🔥 这一段也必须保留
+[params.comments]
+enabled = true
 
 [params.giscus]
 repo = "9991314/blog"
