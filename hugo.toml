@@ -14,7 +14,6 @@ enableRobotsTXT = true
   disableThemeToggle = false
   description = "嵌入式开发与AI学习记录"
   keywords = ["嵌入式", "STM32", "AI", "单片机"]
-  comments = true            # 🔥 必须加这个
   mainSections = ["posts"]   # 🔥 推荐保留
 
 [params.homeInfoParams]
